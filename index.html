@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="formulario">
+      <h2>Crear un nuevo Post</h2>
+      <form id="post-creation-form">
+        <input type="number" id="user-id" placeholder="User ID" required>
+        <input type="text" id="title" placeholder="Título" required>
+        <textarea id="body" placeholder="Contenido" required></textarea>
+        <button type="submit">Crear Post</button>
+      </form>
+  </div>
+
+  <h1>Posts</h1>
+  <div id="posts-display-container"></div>
+  <button id="fetch-button">Cargar Posts</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
